@@ -1,0 +1,53 @@
+.login-box {
+  width: 360px;
+  margin: 90px auto;
+  padding: 30px;
+  text-align: center;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #2193b0, #6dd5ed);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+}
+
+.login-box h1 {
+  color: #fff;
+}
+
+.login-box h2 {
+  font-size: 32px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.login {
+  background: #4caf50;
+  color: white;
+}
+
+.logout {
+  background: #f44336;
+  color: white;
+}
+
+.toggle {
+  background: #ff9800;
+  color: white;
+}

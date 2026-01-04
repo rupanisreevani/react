@@ -1,0 +1,60 @@
+/* Main Container */
+.counter-container {
+  text-align: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  padding: 45px;
+  width: 360px;
+  margin: 70px auto;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Heading */
+.counter-container h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons */
+.counter-container button {
+  padding: 12px 22px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+  transition: all 0.35s ease;
+}
+
+/* Hover Effect */
+.counter-container button:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35);
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+/* Active Click */
+.counter-container button:active {
+  transform: scale(0.95);
+}
+
+/* Floating Animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
