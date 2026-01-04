@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.bulb {
+  width: 160px;
+  margin: 30px 0;
+  transition: all 0.3s ease;
+}
+
+/* Glow when bulb is ON */
+.bulb.on {
+  filter: drop-shadow(0 0 35px rgba(255, 255, 255, 0.9));
+}
+
+.btn-group {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 28px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.on-btn {
+  background: #00ff99;
+  color: black;
+}
+
+.off-btn {
+  background: #ff4d4d;
+  color: white;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
