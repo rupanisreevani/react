@@ -1,0 +1,14 @@
+.product-img {
+  height: 220px;        /* SAME HEIGHT FOR ALL */
+  width: 100%;
+  object-fit: contain; /* keeps image ratio */
+  padding: 15px;
+  background-color: #fff;
+}
+
+/* Keep buttons aligned */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

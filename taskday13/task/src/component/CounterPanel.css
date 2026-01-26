@@ -1,0 +1,80 @@
+/* Container */
+.counter-box {
+  width: 350px;
+  margin: 60px auto;
+  padding: 25px;
+  text-align: center;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+/* Headings */
+.counter-box h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Count colors */
+.count-green {
+  color: #2e7d32;
+}
+
+.count-red {
+  color: #c62828;
+}
+
+.count-normal {
+  color: #333;
+}
+
+/* Messages */
+.green-text {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.red-text {
+  color: #c62828;
+  font-weight: bold;
+}
+
+/* Input */
+.step-input {
+  width: 80%;
+  padding: 10px;
+  margin: 15px 0;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}
+
+/* Buttons */
+.btn-group {
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 10px 22px;
+  margin: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Button colors */
+.green-btn {
+  background-color: #43a047;
+}
+
+.red-btn {
+  background-color: #e53935;
+}
