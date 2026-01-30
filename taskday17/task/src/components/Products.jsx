@@ -1,10 +1,10 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import "./Products.css"; // 👈 add this line
+import "./Products.css"; 
 
 function Products() {
   return (
     <Container className="my-5">
-      <h2 className="text-center mb-4">Featured Products</h2>
+      <h2 className="text-center mb-4">Products</h2>
 
       <Row className="g-4">
         {/* Smart Watch */}
